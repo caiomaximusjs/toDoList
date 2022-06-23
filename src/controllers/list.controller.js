@@ -8,6 +8,9 @@ const findAllItensofListController = (req, res) => {
 const findByIdItemOfListController = (req, res) => {
   const itemId = +req.params.id;
   const choicedItem = listService.findByIdItemOfListService(itemId);
+  if(choicedItem == undefined){
+    res.send("Task not found")
+  }
   res.send(choicedItem);
 };
 
