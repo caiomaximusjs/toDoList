@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Sweep the house",
+    "frequency": "all days",
+   "level": "easy"
+  },
+  {
+    "name": "wash the dog",
+    "frequency": "2 weeks",
+    "level": "hard"
+  },
+  {
+    "name": "study javascript",
+    "frequency": "all days",
+    "level": "medium"
+  }
+]
